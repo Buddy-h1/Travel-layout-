@@ -1,0 +1,122 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	background-image: url(../img/background.png);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: #e8e8e8;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+}
+
+.container {
+	width: 750px;
+	margin: auto;
+}
+
+.travel {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #878f92;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+	text-align: center;
+	padding: 168px 0px 28px;
+}
+
+.topic {
+	font-size: 36px;
+	text-align: center;
+	color: #273d46;
+}
+
+.photo__block {
+	width: 840px;
+	margin: 72px auto 98px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.185);
+}
+
+.text {
+	font-size: 24px;
+	line-height: 40px;
+}
+
+.text p {
+	margin-bottom: 60px;
+}
+
+.points {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 55px;
+	line-height: 1.5;
+}
+
+.points__li li{
+	background: url('../img/icon_1.png') no-repeat;
+	background-position-y: 5px;
+	padding-left: 35px;
+	color: #070c0e;
+}
+
+.points__li li:hover{
+	color: #e93434;
+	background: url('../img/icon_1_1.png') no-repeat;
+	background-position-y: 5px;
+	padding-left: 35px;
+	transition: 0.3s;
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+	width: 200px;
+	height: 50px;
+	background-color: #80b7b3;
+	border-radius: 30px;
+	padding-top: 17px;
+	padding-right: 30px;
+	text-align: center;
+	color: white;
+	background-image: url(../img/icon_2.png);
+	background-position: 145px 17px;
+	background-repeat: no-repeat;
+}
+
+.btn:hover{
+	box-shadow: 0 0 20px #80b7b3;
+	transition: 0.2s;
+	background-color: #3a5856;
+}
+
+.btn:active{
+	box-shadow: 0 0 0px #80b7b3;
+	background-color: #818181;
+}
+
+.block {
+	height: 140px;
+	width: 100%;
+}
